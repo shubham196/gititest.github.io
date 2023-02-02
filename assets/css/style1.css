@@ -1,0 +1,19 @@
+.large-header {
+   position: absolute;
+   width: 100%;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
